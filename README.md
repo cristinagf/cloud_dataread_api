@@ -56,10 +56,12 @@ After the correct deployment, the url of the service will appear on the terminal
 If all the permissions were correct, you should be able to see this api url replying a JSON content from  your browser or via a curl request.
 
 
-## Terraform deplyment
+## Terraform deployment
+
+Terraform was developed by Hashicorp(opens in a new tab). It is a configuration orchestration tool that is incredible for provisioning, adjusting and destroying the virtual server environments. It is available both as a DevOps-as-a-Service enterprise-grade from Hashicorp and as an open-source solution, which allows you to work with a variety of Cloud Service Providers to create multi-cloud ecosystems.
 
 Another way to deploy this service is via Terraform - Infra as a Service.
- 
+
 First, some key concepts:
 - **main.tf**: The primary Terraform configuration file where you define your Google Cloud resources.
 
